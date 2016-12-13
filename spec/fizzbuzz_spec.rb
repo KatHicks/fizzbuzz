@@ -1,6 +1,6 @@
 require './lib/fizzbuzz'
 
-describe 'fizzbuzz' do 
+describe 'fizzbuzz' do # does describe refer to the file or the method?
     it 'returns "fizzbuzz" when passed a multiple of 3 and 5' do 
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
         expect(fizzbuzz(30)).to eq 'fizzbuzz'
