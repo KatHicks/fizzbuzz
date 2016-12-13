@@ -12,7 +12,7 @@ def fizzbuzz(number)
     end
 end
 
-# when working the string class you might write: string.split / split(string)
+# when working with the string class you might write: string.split / split(string)
 # reason is that string object and split method are both members of the string class
 
 class ::Fixnum
